@@ -1,8 +1,10 @@
+import staryImage from "../../assets/stary.jpg";
+
 const Stary = () => {
   return (
     <section
       className="relative h-[640px] bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: "url('/src/assets/stary.jpg" }}
+      style={{ backgroundImage: `url(${staryImage})` }}
     >
       <div className="text-white text-center ">
         <h1 className="text-3xl font-bold mb-4">Watch Our Story</h1>
