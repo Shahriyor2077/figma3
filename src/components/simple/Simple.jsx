@@ -1,4 +1,4 @@
-
+import simpleImage from "../../assets/simple.png";
 
 const Simple = () => {
   return (
@@ -26,8 +26,8 @@ const Simple = () => {
         </div>
 
         <div
-          style={{ backgroundImage: "url('/src/assets/simple.jpg" }}
-          className="w-1/2"
+          style={{ backgroundImage: `url(${simpleImage})` }}
+          className="w-1/2 bg-cover bg-center h-[360px] rounded-xl"
         ></div>
       </div>
 
