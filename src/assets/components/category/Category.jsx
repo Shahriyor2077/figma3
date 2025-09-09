@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const Category = ({ bgColor, image, title }) => {
   return (
