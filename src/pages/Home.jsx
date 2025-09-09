@@ -11,6 +11,10 @@ import fout from "../assets/fout.png";
 import four from "../assets/four.png";
 import fiwe from "../assets/fiwe.png";
 import six from "../assets/six.png";
+import Stary from "../assets/components/stary/Stary";
+import Simple from "../assets/components/simple/Simple";
+import Instagram from "../assets/components/instagram/Instagram";
+import Footer from "../assets/components/footer/Footer";
 
 const Home = () => {
   const categories = [
@@ -60,6 +64,10 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <Stary />
+      <Simple/>
+      <Instagram/>
+      <Footer/>
     </div>
   );
 };
