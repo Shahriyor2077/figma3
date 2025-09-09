@@ -1,8 +1,8 @@
-import Category from "../assets/components/category/Category";
-import Header from "../assets/components/header/Header";
-import Hero from "../assets/components/hero/Hero";
-import Product from "../assets/components/product/Product";
-import Top from "../assets/components/top/Top";
+import Category from "../components/category/Category";
+import Header from "../components/header/Header";
+import Hero from "../components/hero/Hero";
+import Product from "../components/product/Product";
+import Top from "../components/top/Top";
 import teddy from "../assets/teddy.png";
 import biscuite from "../assets/biscuite.png";
 import two from "../assets/two.png";
@@ -11,10 +11,10 @@ import fout from "../assets/fout.png";
 import four from "../assets/four.png";
 import fiwe from "../assets/fiwe.png";
 import six from "../assets/six.png";
-import Stary from "../assets/components/stary/Stary";
-import Simple from "../assets/components/simple/Simple";
-import Instagram from "../assets/components/instagram/Instagram";
-import Footer from "../assets/components/footer/Footer";
+import Stary from "../components/stary/Stary";
+import Simple from "../components/simple/Simple";
+import Instagram from "../components/instagram/Instagram";
+import Footer from "../components/footer/Footer";
 
 const Home = () => {
   const categories = [
@@ -65,9 +65,9 @@ const Home = () => {
         </div>
       </div>
       <Stary />
-      <Simple/>
-      <Instagram/>
-      <Footer/>
+      <Simple />
+      <Instagram />
+      <Footer />
     </div>
   );
 };
