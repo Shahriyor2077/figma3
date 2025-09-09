@@ -1,4 +1,3 @@
-import hero from "../assets/hero.jpg"
 
 const Hero = () => {
   return (
@@ -7,7 +6,7 @@ const Hero = () => {
       // style={{ backgroundImage: `url(${hero})` }}
     >
       <img
-        src={hero}
+        src="/src/assets/hero.jpg"
         alt="Hero"
         className="absolute inset-0 w-full h-full object-cover"
       />
